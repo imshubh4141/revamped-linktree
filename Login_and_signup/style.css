@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #6CF6FF;
+    background-color: #020a0b;
+}
+.heading{
+    text-align: center;
+}
+
+hr{
+    width: 92%;
+    background-color: #6CF6FF;
+    border: .5px solid #6CF6FF;
+}
+
+.center{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+button{
+    padding: 2vh;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6CF6FF;
+    background-color: #020a0b;
+    border: 2px solid #6CF6FF;
+    border-radius: 9px;
+    display: flex;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.icon{
+    width: 4vh;
+    padding-right: 3vh;
+}
+
+footer{
+    height: 6vh;
+    background: #282633;
+}
